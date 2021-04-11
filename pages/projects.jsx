@@ -1,24 +1,24 @@
+import { useRouter } from "next/router";
+
 import Container from "../components/container";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
 import Head from "next/head";
 import Menu from "../components/menu/menu";
 
-const Index = () => {
+export default function Projects() {
   return (
     <>
       <Layout>
         <Head>
-          <title>Alexey Chistyakov developer</title>
+          <title>Alexey Chistyakov's projects</title>
         </Head>
         <Container>
           <Menu />
-          <Intro title="Alexey Chistyakov - Developer" />
+          <Intro />
           <h1>В разработке</h1>
         </Container>
       </Layout>
     </>
   );
-};
-
-export default Index;
+}
