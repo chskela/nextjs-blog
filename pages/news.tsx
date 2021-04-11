@@ -23,7 +23,7 @@ const News = ({ allPosts }: Props) => {
         </Head>
         <Container>
           <Menu />
-          <Intro />
+          <Intro title="Alexey Chistyakov's news" />
           <h1>В разработке</h1>
         </Container>
       </Layout>

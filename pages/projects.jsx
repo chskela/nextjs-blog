@@ -15,7 +15,7 @@ export default function Projects() {
         </Head>
         <Container>
           <Menu />
-          <Intro />
+          <Intro title="Alexey Chistyakov's projects" />
           <h1>В разработке</h1>
         </Container>
       </Layout>
